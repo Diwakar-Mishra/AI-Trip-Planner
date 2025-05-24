@@ -12,7 +12,10 @@ const app = express();
 
 // CORS configuration
 const corsOptions = {
-  origin: ['https://ai-trip-planner-project.netlify.app', 'http://localhost:5173'],
+  origin: [
+    'https://tripmind-ai-trip-planner.netlify.app',
+    'http://localhost:5173'
+  ],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true
